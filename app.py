@@ -132,19 +132,19 @@ def call():
     else:
         response.say("Not a valid number")
     response.say(
-        "Thank you for calling Madhya Pradesh Police. Please speak about your problem in 20 seconds")
+        "Thank you for calling Maharashtra Police. Please speak about your problem in 20 seconds")
     response.pause(length=10)
     # should_stream = False
     print(f'Incoming call from {request.form["From"]}')
     print(number)
     
     #string to integer conversion, excluding +91
-    print(number_parse) #7083022822
+    print(number_parse) #
     print(isValid(number_parse))
     with response.gather(
         num_digits=1, action=url_for('menu'), method="POST"
     ) as g:
-        g.say(message="Thanks for calling MP Police. " +
+        g.say(message="Thanks for calling MH Police. " +
             "Please press 1 for emergency." +
             "Press 2 for help." + "Press 3 for inquiry.", loop=1)
     return str(response), 200, {'Content-Type': 'text/xml'}
