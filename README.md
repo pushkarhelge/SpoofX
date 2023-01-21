@@ -12,9 +12,4 @@ then "the spam_lookup" function lookups into the live spam database to check if 
 8. All the data such as, phone number, transcript, user input, time and model prediction are stored into the live database (PostgreSQL). 
 9. So on the front webpage, model prediction, user input, department to which the call is forwaded to and the phone number are displayed with extra features such as instructions for the operator and add to spam button.
 
-# Flowchart
-![3](https://user-images.githubusercontent.com/87855947/188958305-472ffee6-c25a-4936-b052-ba9e32316b15.jpg)
-
-# Technologies Used
-![4](https://user-images.githubusercontent.com/87855947/188959322-e69e07d8-1e05-4f42-9ad1-f59de58c7925.jpg)
 
