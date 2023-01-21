@@ -17,8 +17,8 @@ from number_validity import isValid
 from Numbers_Routing import getRandomEmergency, getRandomHelp, getRandomInquiry
 app = Flask(__name__)
 sock = Sock(app)
-twilio_account_sid = "AC8be3e809fea41fb32901222aca781bf8"
-twilio_auth_token = "981e374b43c5b71354b707d17526bbcd"
+twilio_account_sid = "#sid_here" # generate twilio_account_sid
+twilio_auth_token = "#auth_token_here" #generate twilio_auth_token
 twilio_client = Client(twilio_account_sid, twilio_auth_token)
 model = vosk.Model('model')
 
