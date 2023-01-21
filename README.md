@@ -1,4 +1,4 @@
-# SPOOFex
+# SPOOFX
 Problem statement: "System for Identification of system generated, blank & Spoof calls landing at Dial 100 Police control room"
 1. It's a app.py file of python backed flask framework, Twilio Client API is called to fetch client details and recieve calls on a US based trial number offered by Twilio. Since the call is recieved only on a public host & 
 the flask app runs on a local host 5000, so we leverage ngrok, cross-platform apllication which exposes a local development server to the internet and divert the traffic, i.e incoming calls recieved onto it. 
